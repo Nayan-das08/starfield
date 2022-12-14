@@ -28,7 +28,7 @@ class Star
 		
 		strokeWeight(5)
 		fill(255)
-		var radius = map(this.z, 0, width, 10, 5)
+		var radius = map(this.z, 0, width, 12, 5)
 		
 		circle(sx, sy, radius)
 	}
