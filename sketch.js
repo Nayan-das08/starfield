@@ -2,7 +2,7 @@ function setup()
 {
     createCanvas(windowWidth, windowHeight);
     stars = []
-    n = 1000
+    n = 100
     for (var i=0; i<n; i++)
     {
         stars.push(new Star())
